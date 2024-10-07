@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
- 
+ body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
 header {
     background-color: brown  ;
     height: 6rem;
@@ -24,7 +26,7 @@ header {
  }
 
  .primeira img {
-    width: 20rem;
+    width: 10rem;
     margin-right: 6rem;
     margin-left: 5rem;
  }
@@ -44,8 +46,8 @@ header {
  }
 
  .segunda img{
-    width: 20rem;
-    height: 10rem;
+    width: 10rem;
+    height: 11rem;
     margin-right:  5rem;
     margin-left: 5rem;
  }
