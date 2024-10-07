@@ -3,5 +3,68 @@
     padding: 0;
     box-sizing: border-box;
 }
+ 
+header {
+    background-color: brown  ;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+
+
+ .primeira {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+
+ }
+
+ .primeira img {
+    width: 20rem;
+    margin-right: 6rem;
+    margin-left: 5rem;
+ }
+
+ .primeira p {
+    max-width: 50%;
+    margin: 0 auto;
+
+ }
+ .segunda{
+    background-color: rgb(198, 112, 112);
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+ }
+
+ .segunda img{
+    width: 20rem;
+    height: 10rem;
+    margin-right:  5rem;
+    margin-left: 5rem;
+ }
+
+ .segunda p {
+    max-width: 20rem;
+ }
+
+ .terceira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem;
+ }
+
+ .terceira img {
+    width: 12rem;
+    height: 12rem;
+    margin-top: 1rem;
+ }
 
